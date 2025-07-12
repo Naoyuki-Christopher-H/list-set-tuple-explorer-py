@@ -1,7 +1,8 @@
-# ==========================
-#   COLLECTION OPERATIONS
-#   LIST - SET - TUPLE
-# ==========================
+# Definations
+# Collection: Single "variable" used to store multiple values.
+# List: Ordered, mutable, allows duplicates. Syntax: [value1, value2, ...]
+# Set: Unordered, mutable, no duplicates. Syntax: {value1, value2, ...}
+# Tuple: Ordered, immutable, allows duplicates. Syntax: (value1, value2, ...)
 
 # ------------------------
 # LIST METHODS
@@ -59,7 +60,7 @@ def list_operations():
 
 def set_operations():
     print("\nSET OPERATIONS")
-    print("================")
+    print("=================")
     # Set: Unordered, mutable, no duplicates
     fruit_set = {"Apple", "Banana", "Coconut"}
 
